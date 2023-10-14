@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A histogram of AQI values",
+  "data": {"url": "data.csv"},
+  "title": "Distribution of AQI Values Across Various Cities",
+  "selection": {
+    "AQISlider": {
+      "type": "interval",
+      "encodings": ["x"],
+      "bind": "scales",
+      "zoom": false
+    }
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "bin": true,
+      "field": "AQI Value",
+      "type": "quantitative",
+      "axis": {"title": "AQI Value"}
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "axis": {"title": "Count of Cities"}
+    },
+    "color": {
+      "condition": {"selection": "AQISlider", "value": "steelblue"},
+      "value": "lightgrey"
+    },
+    "tooltip": [
+      {"field": "AQI Value", "type": "quantitative", "title": "AQI Value Bin"},
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "City", "type": "nominal", "title": "City"},
+      {"field": "AQI Category", "type": "nominal", "title": "AQI Category"},
+      {"aggregate": "count", "type": "quantitative", "title": "City Count in Bin"}
+    ]
+  },
+  "height": 400,
+  "width": 600,
+  "config": {
+    "title": {"fontSize": 16, "fontWeight": "bold"},
+    "axis": {"labelFontSize": 12, "titleFontSize": 14},
+    "legend": {"labelFontSize": 12, "titleFontSize": 14},
+    "tooltip": {"fontSize": 12}
+  }
+}

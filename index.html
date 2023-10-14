@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Air Quality Visualization</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+    <style>
+        .description {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .visualization {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exploring Air Quality Across the Globe</h1>
+    <h2>A Visualization of AQI Values Across Different Cities</h2>
+
+    <!-- Map Visualization -->
+    <section>
+        <h2>Map Visualization</h2>
+        <div id="map" class="visualization"></div>
+    </section>
+
+    <!-- Description -->
+    <section>
+        <h2>About the Visualization</h2>
+        <p class="description">
+            This visualization illuminates the disparities in Air Quality Index (AQI) values across various cities
+            globally. Circles on the map represent cities, with their size and color indicating the AQI value; larger,
+            darker circles signify higher AQI values, illustrating poorer air quality. Divergent air quality conditions,
+            from "Good" to "Hazardous," reveal the multifaceted nature of global air quality challenges. Special
+            attention is brought to cities like Bahawalnagar, Pakistan, which experiences alarmingly poor air quality,
+            juxtaposed against cities like Macas, Ecuador, with notably cleaner air. Such visual representation
+            underscores the urgent need for global, targeted, and context-specific interventions to mitigate air
+            pollution and its pervasive impacts.
+        </p>
+    </section>
+
+    <!-- Histogram Visualization -->
+    <section>
+        <h2>Histogram Visualization</h2>
+        <div id="hist" class="visualization"></div>
+        <label for="aqiSlider">AQI Value:</label>
+        <input type="range" id="aqiSlider" name="aqiSlider" min="0" max="500" step="10" value="0">
+        <span id="sliderValue">0</span>
+    </section>
+
+    <!-- Histogram Description -->
+<section>
+    <h2>About the Histogram Visualization</h2>
+    <p class="description">
+        The histogram visualization provides a compelling overview of Air Quality Index (AQI) values distributed across various cities around the world. By aggregating the number of cities falling within certain AQI value ranges and representing them as bars, the histogram enables a quick visual comparison of global urban air quality. Each bar’s height indicates the number of cities that fall within a particular AQI bin, allowing for a stark visualization of how many cities are grappling with different levels of air quality issues. Utilizing an interactive slider, users can dynamically adjust the AQI threshold, offering a versatile examination and making evident the quantity of cities that exist below a certain AQI, thus granting a nuanced understanding of global air quality in a segmented fashion. This clear and interactive visualization method supports both laypersons and experts in their exploration and analysis of global air quality data.
+    </p>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script>
+        // Embed the map visualization
+        vegaEmbed('#map', 'map.json').catch(console.error);
+
+        // Initialize histogram without filtering
+        renderHistogram(500);
+
+        // Update the histogram visualization when the slider value changes
+        document.getElementById('aqiSlider').addEventListener('input', function (e) {
+            let aqiValue = e.target.value;
+            document.getElementById('sliderValue').textContent = aqiValue;
+            renderHistogram(aqiValue);
+        });
+
+        // Function to render the histogram with a filter applied
+        function renderHistogram(aqiValue) {
+            var spec = {
+                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                "description": "A histogram of AQI values",
+                "data": {"url": "data.csv"},
+                "title": "Distribution of AQI Values Across Various Cities",
+                "mark": "bar",
+                "transform": [{"filter": `datum["AQI Value"] <= ${aqiValue}`}],
+                "encoding": {
+                    "x": {
+                        "bin": true,
+                        "field": "AQI Value",
+                        "type": "quantitative",
+                        "axis": {"title": "AQI Value"}
+                    },
+                    "y": {
+                        "aggregate": "count",
+                        "type": "quantitative",
+                        "axis": {"title": "Count of Cities"}
+                    },
+                    "color": {
+                        "value": "steelblue"
+                    },
+                    "tooltip": [
+                        {"field": "AQI Value", "type": "quantitative", "title": "AQI Value Bin"},
+                        {"field": "Country", "type": "nominal", "title": "Country"},
+                        {"field": "City", "type": "nominal", "title": "City"},
+                        {"field": "AQI Category", "type": "nominal", "title": "AQI Category"},
+                        {"aggregate": "count", "type": "quantitative", "title": "City Count in Bin"}
+                    ]
+                },
+                "height": 350,
+                "width": 550,
+                "config": {
+                    "title": {"fontSize": 16, "fontWeight": "bold"},
+                    "axis": {"labelFontSize": 12, "titleFontSize": 14},
+                    "legend": {"labelFontSize": 12, "titleFontSize": 14},
+                    "tooltip": {"fontSize": 12}
+                }
+            };
+            vegaEmbed('#hist', spec).catch(console.error);
+        }
+    </script>
+</body>
+
+</html>

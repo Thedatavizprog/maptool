@@ -1,0 +1,121 @@
+Country,City,AQI Value,AQI Category,CO AQI Value,CO AQI Category,Ozone AQI Value,Ozone AQI Category,NO2 AQI Value,NO2 AQI Category,PM2.5 AQI Value,PM2.5 AQI Category,lat,lng
+Australia,Geraldton,29,Good,0,Good,29,Good,0,Good,13,Good,-28.7744,114.6089
+Malaysia,Batu Gajah,92,Moderate,2,Good,57,Moderate,1,Good,92,Moderate,4.4667,101.05
+Malaysia,Lahad Datu,48,Good,1,Good,15,Good,0,Good,48,Good,5.03,118.34
+Australia,Ballarat,22,Good,0,Good,13,Good,6,Good,22,Good,-37.5608,143.8475
+Australia,Ballina,34,Good,0,Good,34,Good,1,Good,15,Good,-28.8333,153.5333
+Australia,Bundaberg,32,Good,0,Good,32,Good,0,Good,10,Good,-24.8661,152.3494
+Australia,Port Macquarie,29,Good,0,Good,29,Good,0,Good,7,Good,-31.4333,152.9
+Malaysia,Kangar,105,Unhealthy for Sensitive Groups,2,Good,13,Good,8,Good,105,Unhealthy for Sensitive Groups,6.4333,100.2
+Malaysia,Melaka,61,Moderate,1,Good,31,Good,0,Good,61,Moderate,2.1944,102.2486
+Australia,Griffith,24,Good,0,Good,24,Good,0,Good,10,Good,-34.29,146.04
+Australia,Griffith,24,Good,0,Good,24,Good,0,Good,10,Good,41.5277,-87.4239
+Australia,Singleton,31,Good,0,Good,3,Good,13,Good,31,Good,-32.5667,151.1697
+Malaysia,Kluang,80,Moderate,1,Good,38,Good,0,Good,80,Moderate,2.0336,103.3194
+Malaysia,Kuala Lumpur,76,Moderate,2,Good,41,Good,2,Good,76,Moderate,3.1478,101.6953
+Australia,Townsville,23,Good,0,Good,21,Good,1,Good,23,Good,-19.25,146.8167
+Malaysia,Beaufort,63,Moderate,6,Good,36,Good,0,Good,63,Moderate,32.4597,-80.7235
+Malaysia,Kuala Lipis,70,Moderate,2,Good,10,Good,3,Good,70,Moderate,4.18,102.05
+Australia,Batemans Bay,29,Good,0,Good,29,Good,0,Good,19,Good,-35.7081,150.1744
+Australia,Burnie,26,Good,0,Good,26,Good,1,Good,12,Good,-41.0636,145.8753
+Australia,Canberra,24,Good,0,Good,24,Good,1,Good,11,Good,-35.2931,149.1269
+Australia,Pakenham,24,Good,0,Good,17,Good,3,Good,24,Good,-38.0712,145.4878
+Australia,Palmerston,264,Very Unhealthy,9,Good,2,Good,17,Good,264,Very Unhealthy,53.35,-6.379
+Australia,Rockhampton,25,Good,0,Good,25,Good,4,Good,13,Good,-23.3781,150.5136
+Australia,Lismore,31,Good,0,Good,31,Good,2,Good,16,Good,-28.8167,153.2833
+Australia,Geelong,33,Good,0,Good,25,Good,1,Good,33,Good,-38.15,144.35
+Australia,Bendigo,23,Good,0,Good,23,Good,0,Good,23,Good,-36.75,144.2667
+Australia,Alice Springs,52,Moderate,0,Good,18,Good,0,Good,52,Moderate,-23.7,133.8667
+Malaysia,Cukai,93,Moderate,1,Good,38,Good,0,Good,93,Moderate,4.2332,103.4479
+Australia,Broken Hill,126,Unhealthy for Sensitive Groups,0,Good,15,Good,0,Good,126,Unhealthy for Sensitive Groups,-31.95,141.4667
+Australia,Newcastle,48,Good,0,Good,9,Good,14,Good,48,Good,-27.7464,29.9328
+Australia,Newcastle,48,Good,0,Good,9,Good,14,Good,48,Good,54.98,-1.61
+Australia,Newcastle,48,Good,0,Good,9,Good,14,Good,48,Good,-32.9167,151.75
+Australia,Newcastle,48,Good,0,Good,9,Good,14,Good,48,Good,47.5304,-122.1633
+Australia,Newcastle,48,Good,0,Good,9,Good,14,Good,48,Good,35.2401,-97.5995
+Australia,Mount Isa,46,Good,0,Good,21,Good,0,Good,46,Good,-20.7261,139.4938
+Australia,Nambour,32,Good,0,Good,27,Good,2,Good,32,Good,-26.6269,152.9591
+Malaysia,Parit Buntar,79,Moderate,2,Good,60,Moderate,0,Good,79,Moderate,5.1167,100.5
+Australia,Wangaratta,15,Good,0,Good,15,Good,1,Good,15,Good,-36.3583,146.3125
+Australia,Roebourne,18,Good,0,Good,18,Good,0,Good,11,Good,-20.7667,117.15
+Australia,Brisbane,31,Good,0,Good,30,Good,6,Good,31,Good,-27.4678,153.0281
+Malaysia,Kuala Terengganu,75,Moderate,1,Good,40,Good,0,Good,75,Moderate,5.3292,103.1361
+Malaysia,Ipoh,69,Moderate,1,Good,38,Good,0,Good,69,Moderate,4.5972,101.075
+Australia,Raymond Terrace,24,Good,0,Good,24,Good,2,Good,10,Good,-32.7615,151.7441
+Malaysia,Shah Alam,78,Moderate,2,Good,43,Good,2,Good,78,Moderate,3.0722,101.5167
+Australia,Parkes,21,Good,0,Good,21,Good,0,Good,10,Good,-33.133,148.176
+Malaysia,Banting,89,Moderate,1,Good,36,Good,1,Good,89,Moderate,5.7167,120.9
+Australia,Bowen,22,Good,0,Good,22,Good,0,Good,3,Good,-20.0102,148.2416
+Australia,Muswellbrook,22,Good,0,Good,22,Good,3,Good,9,Good,-32.2654,150.8885
+Australia,Launceston,29,Good,0,Good,29,Good,0,Good,12,Good,-41.4419,147.145
+Australia,Launceston,29,Good,0,Good,29,Good,0,Good,12,Good,50.637,-4.36
+Australia,Toowoomba,22,Good,0,Good,22,Good,0,Good,7,Good,-27.5667,151.95
+Australia,Cessnock,21,Good,0,Good,21,Good,8,Good,18,Good,-32.8342,151.3555
+Malaysia,Bukit Mertajam,150,Unhealthy,3,Good,24,Good,10,Good,150,Unhealthy,5.3631,100.4667
+Malaysia,Seremban,140,Unhealthy for Sensitive Groups,3,Good,14,Good,12,Good,140,Unhealthy for Sensitive Groups,2.7222,101.9417
+Australia,Adelaide,44,Good,0,Good,24,Good,1,Good,44,Good,-34.9275,138.6
+Australia,Port Augusta,25,Good,0,Good,23,Good,1,Good,25,Good,-32.4925,137.7658
+Australia,Kwinana,27,Good,0,Good,27,Good,1,Good,23,Good,-32.2394,115.7702
+Australia,Mildura,27,Good,0,Good,25,Good,0,Good,27,Good,-34.1889,142.1583
+Malaysia,Miri,209,Very Unhealthy,67,Moderate,209,Very Unhealthy,2,Good,157,Unhealthy,4.3925,113.9861
+Australia,Karratha,22,Good,0,Good,22,Good,0,Good,9,Good,-20.7364,116.8464
+Malaysia,Raub,74,Moderate,1,Good,35,Good,0,Good,74,Moderate,3.7931,101.8569
+Australia,Wollongong,24,Good,0,Good,24,Good,2,Good,19,Good,-34.4331,150.8831
+Australia,Sydney,42,Good,0,Good,15,Good,14,Good,42,Good,-33.8678,151.21
+Australia,Warrnambool,27,Good,0,Good,27,Good,0,Good,20,Good,-38.3833,142.4833
+Australia,Morwell,17,Good,0,Good,14,Good,7,Good,17,Good,-38.2333,146.4
+Australia,Lithgow,23,Good,0,Good,23,Good,1,Good,13,Good,-33.4833,150.15
+Malaysia,Klang,57,Moderate,1,Good,34,Good,1,Good,57,Moderate,3.0333,101.45
+Malaysia,Sungai Petani,150,Unhealthy,3,Good,23,Good,10,Good,150,Unhealthy,5.65,100.48
+Australia,Tamworth,23,Good,0,Good,23,Good,1,Good,12,Good,52.633,-1.695
+Australia,Tamworth,23,Good,0,Good,23,Good,1,Good,12,Good,-31.0833,150.9167
+Australia,Coffs Harbour,27,Good,0,Good,27,Good,0,Good,17,Good,-30.3022,153.1189
+Australia,Devonport,32,Good,0,Good,27,Good,0,Good,32,Good,-41.18,146.3503
+Australia,Wagga Wagga,19,Good,0,Good,15,Good,2,Good,19,Good,-35.1189,147.3689
+Australia,Kiama,33,Good,1,Good,15,Good,12,Good,33,Good,-34.6708,150.8542
+Malaysia,Petaling Jaya,97,Moderate,2,Good,48,Good,1,Good,97,Moderate,3.0972,101.6444
+Australia,Queanbeyan,18,Good,0,Good,18,Good,1,Good,17,Good,-35.3533,149.2342
+Australia,Mackay,29,Good,0,Good,29,Good,0,Good,15,Good,-21.1411,149.1858
+Australia,Bongaree,32,Good,0,Good,24,Good,7,Good,32,Good,-27.0813,153.1636
+Malaysia,Kuantan,86,Moderate,1,Good,38,Good,0,Good,86,Moderate,3.8167,103.3333
+Malaysia,Alor Setar,55,Moderate,1,Good,35,Good,0,Good,55,Moderate,6.1183,100.3694
+Australia,Katherine,18,Good,0,Good,18,Good,0,Good,11,Good,-14.4667,132.2667
+Australia,Traralgon,16,Good,0,Good,15,Good,7,Good,16,Good,-38.1958,146.5403
+Australia,Goulburn,22,Good,0,Good,22,Good,0,Good,15,Good,-34.7547,149.6186
+Australia,Cairns,28,Good,0,Good,28,Good,0,Good,24,Good,-16.92,145.78
+Australia,Melton,57,Moderate,1,Good,2,Good,18,Good,57,Moderate,-37.6833,144.5833
+Australia,Taree,32,Good,0,Good,22,Good,0,Good,32,Good,-31.9,152.45
+Malaysia,Kuah,104,Unhealthy for Sensitive Groups,2,Good,58,Moderate,0,Good,104,Unhealthy for Sensitive Groups,6.3167,99.85
+Australia,Darwin,102,Unhealthy for Sensitive Groups,2,Good,58,Moderate,1,Good,102,Unhealthy for Sensitive Groups,-12.4381,130.8411
+Malaysia,Juru,150,Unhealthy,3,Good,27,Good,9,Good,150,Unhealthy,-7.5369,-37.8189
+Australia,Cranbourne,50,Good,1,Good,7,Good,17,Good,50,Good,-38.0996,145.2834
+Malaysia,Bintulu,51,Moderate,1,Good,12,Good,0,Good,51,Moderate,3.17,113.03
+Australia,Gawler,24,Good,0,Good,11,Good,11,Good,24,Good,-34.5981,138.745
+Australia,Nerang,36,Good,1,Good,17,Good,7,Good,36,Good,-27.9956,153.322
+Australia,Armidale,26,Good,0,Good,26,Good,0,Good,3,Good,-30.5,151.65
+Australia,Maryborough,31,Good,0,Good,31,Good,0,Good,10,Good,-25.5375,152.7019
+Australia,Maryborough,31,Good,0,Good,31,Good,0,Good,10,Good,-37.05,143.735
+Australia,Murray Bridge,31,Good,0,Good,28,Good,0,Good,31,Good,-35.117,139.267
+Australia,Hobart,48,Good,0,Good,24,Good,1,Good,48,Good,-42.8806,147.325
+Australia,Hobart,48,Good,0,Good,24,Good,1,Good,48,Good,41.514,-87.2729
+Australia,Hobart,48,Good,0,Good,24,Good,1,Good,48,Good,44.4967,-88.1602
+Australia,Innisfail,26,Good,0,Good,25,Good,0,Good,26,Good,-17.5238,146.0311
+Australia,Bairnsdale,26,Good,0,Good,26,Good,0,Good,8,Good,-37.8333,147.6167
+Australia,Caboolture,24,Good,0,Good,21,Good,8,Good,24,Good,-27.0667,152.967
+Australia,Wodonga,25,Good,0,Good,25,Good,0,Good,11,Good,-36.1214,146.8881
+Australia,Yeppoon,23,Good,0,Good,23,Good,3,Good,11,Good,-23.1288,150.7444
+Australia,Albury,24,Good,0,Good,11,Good,3,Good,24,Good,-36.0806,146.9158
+Australia,Hervey Bay,36,Good,0,Good,36,Good,0,Good,17,Good,-25.29,152.84
+Australia,Port Pirie,20,Good,0,Good,20,Good,0,Good,19,Good,-33.1858,138.0169
+Australia,Busselton,32,Good,0,Good,32,Good,0,Good,8,Good,-33.6478,115.3458
+Australia,Whyalla,31,Good,0,Good,25,Good,0,Good,31,Good,-33.0333,137.5667
+Malaysia,Pasir Gudang,141,Unhealthy for Sensitive Groups,2,Good,4,Good,21,Good,141,Unhealthy for Sensitive Groups,1.5028,103.9356
+Australia,Dubbo,15,Good,0,Good,15,Good,0,Good,13,Good,-32.2569,148.6011
+Australia,Gympie,25,Good,0,Good,25,Good,3,Good,17,Good,-26.19,152.6655
+Malaysia,Johor Bahru,107,Unhealthy for Sensitive Groups,1,Good,35,Good,3,Good,107,Unhealthy for Sensitive Groups,1.4556,103.7611
+Australia,Mount Gambier,18,Good,0,Good,18,Good,0,Good,14,Good,-37.8294,140.7828
+Malaysia,Sibu,61,Moderate,3,Good,21,Good,0,Good,61,Moderate,2.3,111.8167
+Malaysia,Kuching,46,Good,1,Good,16,Good,0,Good,46,Good,1.5575,110.3439
+Australia,Caloundra,28,Good,0,Good,28,Good,2,Good,17,Good,-26.7986,153.1289
+Malaysia,Taiping,131,Unhealthy for Sensitive Groups,3,Good,24,Good,10,Good,131,Unhealthy for Sensitive Groups,4.85,100.7333
+Malaysia,Teluk Intan,90,Moderate,2,Good,57,Moderate,1,Good,90,Moderate,4.0259,101.0213

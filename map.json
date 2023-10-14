@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A map of AQI values across cities.",
+  "data": {"url": "data.csv"},
+  "projection": {"type": "identity", "reflectY": true},
+  "mark": "circle",
+  "selection": {
+    "AQI": {
+      "type": "single",
+      "fields": ["AQI Value"],
+      "bind": {"input": "range", "min": 0, "max": 500, "step": 10}
+    }
+  },
+  "encoding": {
+    "longitude": {"field": "lng", "type": "quantitative"},
+    "latitude": {"field": "lat", "type": "quantitative"},
+    "color": {
+      "condition": {"selection": "AQI", "field": "AQI Value", "type": "quantitative", "scale": {"scheme": "yellowgreenblue"}},
+      "value": "lightgray"
+    },
+    "tooltip": [
+      {"field": "City", "type": "nominal"},
+      {"field": "Country", "type": "nominal"},
+      {"field": "AQI Value", "type": "quantitative"}
+    ]
+  },
+  "height": 400,
+  "width": 600
+}

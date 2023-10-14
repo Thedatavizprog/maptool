@@ -8,8 +8,9 @@
     "longitude": {"field": "lng", "type": "quantitative"},
     "latitude": {"field": "lat", "type": "quantitative"},
     "color": {
-      "condition": {"selection": "AQI", "field": "AQI Value", "type": "quantitative", "scale": {"scheme": "yellowgreenblue"}},
-      "value": "lightgray"
+      "field": "AQI Value",
+      "type": "quantitative",
+      "scale": {"scheme": "yellowgreenblue"}
     },
     "tooltip": [
       {"field": "City", "type": "nominal"},
